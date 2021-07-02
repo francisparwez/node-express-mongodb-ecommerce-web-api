@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Francis\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Program Files\Microsoft MPI\Bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files (x86)\Yarn\bin;C:\Users\Francis\AppData\Local\Android\Sdk;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\Francis\AppData\Local\Android\Sdk\platforms;C:\Users\Francis\AppData\Local\Android\Sdk\platform-tools;C:\xampp\php;C:\composer;C:\Program Files\dotnet;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\nodejs;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\Francis\AppData\Local\Microsoft\WindowsApps;C:\Users\Francis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Flutter\src\flutter\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Francis\AppData\Local\Yarn\bin;C:\Users\Francis\AppData\Local\GitHubDesktop\bin;C:\Users\Francis\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Francis\.dotnet\tools;C:\xampp\mysql\bin;C:\Users\Francis\AppData\Local\Android\Sdk\platform-tools;C:\Users\Francis\AppData\Local\atom\bin;C:\Users\Francis\.dotnet\tools;C:\Users\Francis\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  SyntaxError: D:\DDs\NODE - eCommerce API\MERN_COURSE\backend\package.json: Unexpected string in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "eshop",
+    "version": "1.0.0",
+    "description": "backend of the eshop",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon app.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
